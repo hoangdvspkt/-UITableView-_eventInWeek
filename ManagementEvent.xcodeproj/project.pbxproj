@@ -87,6 +87,7 @@
 		FB3D16521EAB4D0C00094299 = {
 			isa = PBXGroup;
 			children = (
+				FB3D168C1EAB4D3900094299 /* Model */,
 				FB3D165D1EAB4D0C00094299 /* ManagementEvent */,
 				FB3D16721EAB4D0C00094299 /* ManagementEventTests */,
 				FB3D167D1EAB4D0C00094299 /* ManagementEventUITests */,
@@ -109,13 +110,12 @@
 			children = (
 				FB3D165E1EAB4D0C00094299 /* AppDelegate.swift */,
 				FB3D16601EAB4D0C00094299 /* ViewController.swift */,
+				FB3D16621EAB4D0C00094299 /* Main.storyboard */,
+				FB3D16651EAB4D0C00094299 /* Assets.xcassets */,
 				FB5C30811EB08EAE00EED839 /* EventDetailViewController.swift */,
 				FB3D16931EAB5BEE00094299 /* EventTableViewCell.swift */,
 				FB3D16911EAB4D9500094299 /* EventTableViewController.swift */,
-				FB3D16621EAB4D0C00094299 /* Main.storyboard */,
-				FB3D16651EAB4D0C00094299 /* Assets.xcassets */,
 				FB3D16671EAB4D0C00094299 /* LaunchScreen.storyboard */,
-				FB3D168C1EAB4D3900094299 /* Model */,
 				FB3D166A1EAB4D0C00094299 /* Info.plist */,
 			);
 			path = ManagementEvent;
@@ -145,7 +145,8 @@
 				FB3D168D1EAB4D3900094299 /* Event.swift */,
 				FB3D168E1EAB4D3900094299 /* EventLine.swift */,
 			);
-			path = Model;
+			name = Model;
+			path = ManagementEvent/Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
